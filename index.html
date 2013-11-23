@@ -1,6 +1,10 @@
 <DOCTYPE! html>
 <html>
 	<head>
+	<script src=./javascript.js>
+	<script>
+	total_clicks = click_counter(0);
+	</script>
 	</head>
 	<body>
 	<h1> This is my website!</h1>
@@ -8,6 +12,8 @@
 
 	<a href="http://www.mixpanel.com">mixpanel's site</a>
 	
-	<button id=button>Click Me please</button>
+	<button id=button onclick="total_clicks()">
+		Click Me please</button>
+
 	</body>
 	</html>
